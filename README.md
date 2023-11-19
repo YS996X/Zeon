@@ -52,41 +52,41 @@
 
 
 # Available commands
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.ss`</a> - take screenshot at any time<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.screenrec`</a> - record the screen for 15 seconds<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.critical-enable`</a> - elevates the process to critical status (`.critical-disable` to undo)<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.display-graphic`</a> - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.display-glitch <name>`</a> - display specified screen glitch<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.monitors-off`</a> - turn off all monitors (`.monitors-on` to turn back on)<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.website-block <website>`</a> - block specified website from being accessed from any browser (`.website-unblock <website>` to unblock it)<br />
-<a href="https://github.com/mategol/pysilon-malware#show-what-to-show">          `.show <what-to-show>`</a> - get list of running processes or available commands<br />
-<a href="https://github.com/mategol/pysilon-malware#kill-process-id">            `.kill <process-name-or-id>`</a> - kill any running process<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.blacklist <process-name>`</a> - adds specified process to the blacklist (victim won't be able to run it)<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.whitelist <process-name>`</a> - removes specified process from the blacklist (victim will be able to run it) <br />
-<a href="https://github.com/mategol/pysilon-malware#kill-process-id">            `.foreground`</a> - get active window process name<br />
-<a href="https://github.com/mategol/pysilon-malware#kill-process-id">            `.msg title="<title>" text="<text>" style=<style>`</a> - send a message to victim and get the response<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.tts <message>`</a> - plays a *Text-to-Speech* message on victim's PC<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.webcam <action>`</a> -  use connected webcam (currently supports photos shooting)<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.block-input`</a> - block the mouse and keyboard(`.unblock-input` to unblock it)<br />
-<a href="https://github.com/mategol/pysilon-malware#grab-what-to-grab">          `.grab <what-to-grab>`</a> - grab for example saved passwords in web browsers<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.volume <value>`</a> - change the audio output volume on victim's PC<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.play [<file>]`</a> - play any *.mp3* file on the victim's PC (existing one or sent in the next message if no filename was provided)<br />
-<a href="https://github.com/mategol/pysilon-malware#join">                       `.join`</a> - join voice-channel and stream live microphone input<br />
-<a href="https://github.com/mategol/pysilon-malware#pwd">                        `.pwd`</a> - show working directory<br />
-<a href="https://github.com/mategol/pysilon-malware#ls">                         `.ls`</a> - list content of working directory<br />
-<a href="https://github.com/mategol/pysilon-malware#tree">                       `.tree`</a> - show tree of working directory<br />
-<a href="https://github.com/mategol/pysilon-malware#cd-directory">               `.cd <directory>`</a> - change working directory<br />
-<a href="https://github.com/mategol/pysilon-malware#upload-type-filename">       `.upload <type> [<name>]`</a> - upload any file or zipped directory (also greater than 8MB ones) onto target PC<br />
-<a href="https://github.com/mategol/pysilon-malware#download-file-or-directory"> `.download <file-or-directory>`</a> - download any file or zipped directory (also greater than 8MB ones) from target PC<br />
-<a href="https://github.com/mategol/pysilon-malware#remove-file-or-dir">         `.remove <file-or-directory>`</a> - remove file or directory on target PC<br />
-<a href="https://github.com/mategol/pysilon-malware#execute-file">               `.execute <file>`</a> - run any file on target PC<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.start-clipper`</a> - start crypto-clipper (swap crypto currency wallet addresses to your ones)(`.stop-clipper` to stop it)<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.jumpscare [<preset>]`</a> - play very loud and rapidly flashing video or other graphics<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.bsod`</a> - trigger Blue Screen of Death<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.forkbomb`</a> - execute fork bomb<br />
-<a href="https://github.com/mategol/pysilon-malware#ss">                         `.cmd <command>`</a> - execute shell command on victim's PC and send back the output<br />
-<a href="https://github.com/mategol/pysilon-malware#implode">                    `.implode`</a> - remove PySilon from target PC and clean the "evidence"<br />
-<a href="https://github.com/mategol/pysilon-malware#clear">                      `.clear`</a> - clear messages from file-related channel<br />
+`.ss` - take screenshot at any time
+`.screenrec` - record the screen for 15 seconds
+`.critical-enable` - elevates the process to critical status (`.critical-disable` to undo)
+`.display-graphic` - manipulate low-level graphics by displaying pixels prepared in DrawlingStudio
+`.display-glitch <name>` - display specified screen glitch
+`.monitors-off` - turn off all monitors (`.monitors-on` to turn back on)
+`.website-block <website>` - block specified website from being accessed from any browser (`.website-unblock <website>` to unblock it)
+`.show <what-to-show>` - get list of running processes or available commands
+`.kill <process-name-or-id>` - kill any running process
+`.blacklist <process-name>` - adds specified process to the blacklist (victim won't be able to run it)
+`.whitelist <process-name>` - removes specified process from the blacklist (victim will be able to run it)
+`.foreground` - get active window process name
+`.msg title="<title>" text="<text>" style=<style>` - send a message to victim and get the response
+`.tts <message>` - plays a *Text-to-Speech* message on victim's PC
+`.webcam <action>` - use connected webcam (currently supports photos shooting)
+`.block-input` - block the mouse and keyboard (`.unblock-input` to unblock it)
+`.grab <what-to-grab>` - grab for example saved passwords in web browsers
+`.volume <value>` - change the audio output volume on victim's PC
+`.play [<file>]` - play any *.mp3* file on the victim's PC (existing one or sent in the next message if no filename was provided)
+`.join` - join voice-channel and stream live microphone input
+`.pwd` - show working directory
+`.ls` - list content of working directory
+`.tree` - show tree of working directory
+`.cd <directory>` - change working directory
+`.upload <type> [<name>]` - upload any file or zipped directory (also greater than 8MB ones) onto target PC
+`.download <file-or-directory>` - download any file or zipped directory (also greater than 8MB ones) from target PC
+`.remove <file-or-directory>` - remove file or directory on target PC
+`.execute <file>` - run any file on target PC
+`.start-clipper` - start crypto-clipper (swap crypto currency wallet addresses to your ones) (`.stop-clipper` to stop it)
+`.jumpscare [<preset>]` - play very loud and rapidly flashing video or other graphics
+`.bsod` - trigger Blue Screen of Death
+`.forkbomb` - execute fork bomb
+`.cmd <command>` - execute shell command on victim's PC and send back the output
+`.implode` - remove PySilon from target PC and clean the "evidence"
+`.clear` - clear messages from file-related channel
 
 ### ToDo
 
