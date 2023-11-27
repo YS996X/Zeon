@@ -4,7 +4,7 @@
 
 <p align='center'><img src="https://cdn.discordapp.com/attachments/1113156807016325222/1175612290129739866/noun-pc-virus-3346700.png?ex=656bdd43&is=65596843&hm=658d9bbe453c69a2f27e2df1eb7811a21c148b86075c9a31110e93249973fc21&" width=500 /></p>
 
-`Advanced pysillion-based RAT malware written in Python, fully controllable through Discord with dedicated GUI builder to make preparation easier.`
+`Advanced pyrox-based RAT malware written in Python, fully controllable through Discord with dedicated GUI builder to make preparation easier.`
 
 </span>
 
@@ -57,6 +57,6 @@ List of features that should appear in following releases:
 - [ ] webhook connection in case of unexpected circumstances (like BOT-Token banned by Discord)
 - [ ] overall system info grabber with cool Discord Embeds
 - [ ] traditional reverse shell creator
-- [ ] grab credit cards information
+- [ ] ~grab credit cards information~
 - [ ] optional crypto mining (for example, when victim is idle)
 - [ ] grab sessions from popular applications (Steam/Minecraft/Metamask/Exodus/Roblox)
